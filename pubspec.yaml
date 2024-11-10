@@ -7,6 +7,7 @@ homepage: https://github.com/mtellect/flutter_paystack
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.18.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -15,7 +16,9 @@ dependencies:
 flutter:
 
 environment:
-    sdk: ">=2.0.0-dev.28.0 <3.0.0"
+    sdk: '>=3.0.3 <4.0.0'
+    flutter: '>=3.10.4'
+    
 
 plugin:
     androidPackage: maugost.com.paystackflutter
