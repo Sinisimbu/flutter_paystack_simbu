@@ -35,3 +35,7 @@ flutter:
 environment:
   sdk: '>=3.0.3 <4.0.0'
   flutter: '>=3.10.4'
+
+plugin:
+    androidPackage: maugost.com.paystackflutter
+    pluginClass: PaystackFlutterPlugin
